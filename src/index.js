@@ -1,6 +1,5 @@
 
 // You should implement your task here.
-
 module.exports = function towelSort (matrix) {
     if (matrix == undefined) {return [];}
     var res = matrix.reduce(function (arr, el, i) {
